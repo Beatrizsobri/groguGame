@@ -1,9 +1,14 @@
 .App {
 display: grid;
 grid-template-columns: 1fr;
+grid-template-rows: 50px 1fr;
+background-color: gray;
+height: 100%;
+padding: 15px;
 }
 
-.menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

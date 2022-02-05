@@ -1,3 +1,3 @@
 import './rules.scss';
 
-export const Rules = () => <div className='rules'>juego</div>
+export const Rules = () => <div className='rules'>Normas</div>

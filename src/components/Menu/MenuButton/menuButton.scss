@@ -1,0 +1,10 @@
+.menuButton {
+  background-color: #cfced4;
+  border-radius: 4px;
+  border: 1px solid #938c8f;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 4px 0 #32325214, 0 2px 8px 0 #32325229;
+  }
+}

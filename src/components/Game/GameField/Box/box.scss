@@ -1,0 +1,22 @@
+.box {
+    height: 130px;
+    width: 130px;
+    margin: 10px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+        background-color: transparent;
+    }
+
+    &:last-child {
+        background-color: transparent;
+    }
+
+    &_image {
+        height: 75px;
+        width: 75px;
+    }
+}

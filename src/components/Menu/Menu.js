@@ -3,10 +3,12 @@ import './menu.scss'
 
 export const Menu = () => {
   return (
-    <nav className='menu'>
-      <MenuButton text="Reglas del Juego"/>
-      <MenuButton text="Fichas"/>
-      <MenuButton text="Juego"/>
-    </nav>
+    <>
+      <nav className='menu'>
+        <MenuButton linkTo="/rules" text="Reglas del Juego"/>
+        <MenuButton linkTo="/pieces" text="Fichas"/>
+        <MenuButton linkTo="/game" text="Juego"/>
+      </nav>
+    </>
   )  
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App/App';
+import { BrowserRouter } from 'react-router-dom';
+import { Game } from './components/Game/Game';
 import './index.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Game />
+  </BrowserRouter>,
   document.getElementById('root')
 );

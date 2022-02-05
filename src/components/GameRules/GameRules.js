@@ -1,0 +1,1 @@
+export const GameRules = () => <div>Esto son las reglas</div>

@@ -1,0 +1,1 @@
+export const Pieces = () => <div>esto las fichas</div>

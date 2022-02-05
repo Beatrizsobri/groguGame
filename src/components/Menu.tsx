@@ -1,4 +1,4 @@
-import { MenuButton } from "./MenuButton/MenuButton"
+import { MenuButton } from "./MenuButton"
 import './menu.scss'
 
 export const Menu = () => {

@@ -1,5 +1,6 @@
+import React from 'react';
 import './App.scss';
-import { Menu } from '../components/Menu/Menu';
+import { Menu } from './components/Menu';
 
 function App() {
   return (

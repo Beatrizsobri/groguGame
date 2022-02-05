@@ -1,3 +1,3 @@
 import './pieces.scss';
 
-export const Pieces = () => <div className='pieces'>juego</div>
+export const Pieces = () => <div className='pieces'>Piezas</div>

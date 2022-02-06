@@ -15,7 +15,7 @@ export const GamePage = () => {
     const [diceValue, setDiceValue ] = useState<DiceValueType|undefined>();
     const [groguPosition, setGroguPosition] = useState<number[]>([1,0,0,0,0,0,0,0]);
     const [showWinModal, setShowWinModal] = useState<boolean>(false);
-    const [showGameOverModal, setShowGameOverModal] = useState<boolean>(true);
+    const [showGameOverModal, setShowGameOverModal] = useState<boolean>(false);
 
     useEffect(() => {
         if(!frogQuantity && !eggQuantity && !cookieQuantity){

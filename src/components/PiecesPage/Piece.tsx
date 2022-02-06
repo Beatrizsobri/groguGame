@@ -1,5 +1,5 @@
-import { PieceType } from "../utils/pieces";
 import "./piece.scss";
+import { PieceType } from "../utils/pieces";
 
 export const Piece = ({image, text, quantity, id}: PieceType) => {
     return(

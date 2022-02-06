@@ -1,10 +1,10 @@
 import "./gamePage.scss";
 import mando from "../../images/mando.png";
 import grogu from "../../images/groguGameOver.gif";
-import { useEffect, useState } from "react";
 import { Modal } from "../Modal/Modal";
 import { DiceContainer } from "./Dice/DiceContainer";
 import { Playground } from "./Playground/Playground";
+import { useEffect, useState } from "react";
 
 export type DiceValueType = "grogu" | "egg" | "frog" | "cookie";
 

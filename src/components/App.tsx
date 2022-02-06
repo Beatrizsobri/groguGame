@@ -1,7 +1,7 @@
 import './App.scss';
 import { Routes, Route } from "react-router-dom";
 import { RulesPage } from './Rules/RulesPage';
-import { Game } from './Game/Game';
+import { GamePage } from './Game/GamePage';
 import { PiecesPage } from './Pieces/PiecesPage';
 import { Menu } from './Menu/Menu';
 
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path={LinksTo.pieces} element={<PiecesPage />} />
         <Route path={LinksTo.rules} element={<RulesPage />} />
-        <Route path={LinksTo.game} element={<Game />} />
+        <Route path={LinksTo.game} element={<GamePage />} />
       </Routes>
     </div>
   );

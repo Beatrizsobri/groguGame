@@ -1,5 +1,5 @@
-import { DiceValueType } from "../GamePage";
 import "./dice.scss";
+import { DiceValueType } from "../GamePage";
 
 interface DiceProps {
     diceValue? : DiceValueType;

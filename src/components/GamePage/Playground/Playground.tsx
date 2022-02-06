@@ -1,6 +1,6 @@
+import "./playground.scss";
 import { Cabinet } from "./Cabinet/Cabinet";
 import { ChargeZone } from "./ChargeZone/ChargeZone";
-import "./playground.scss";
 
 interface PlaygroundProps {
     groguPosition: number[];

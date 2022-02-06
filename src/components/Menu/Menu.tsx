@@ -1,5 +1,5 @@
-import { MenuItem } from "./MenuItem";
 import "./menu.scss";
+import { MenuItem } from "./MenuItem";
 import { LinksTo } from "../App";
 
 export const Menu = () => {

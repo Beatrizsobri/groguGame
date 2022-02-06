@@ -1,10 +1,9 @@
-import React from 'react';
 import './App.scss';
 import { Menu } from './Menu';
 import { Routes, Route } from "react-router-dom";
-import { Pieces } from './Pieces/PIeces';
 import { Rules } from './Rules/Rules';
 import { Game } from './Game/Game';
+import { Pieces } from './Pieces/PiecesPage';
 
 export enum LinksTo {
   pieces = 'PIECES',

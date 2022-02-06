@@ -1,15 +1,32 @@
 import { useState } from 'react';
 import { DiceContainer } from './Dice/DiceContainer';
 import './gamePage.scss';
+import { Playground } from './Playground/Playground';
 
 export type DiceValueType = 'grogu' | 'egg' | 'frog' | 'cookie';
 
 export const GamePage = () => {
-    const [diceValue, setDiceValue ] = useState<DiceValueType>()
-
+    const [diceValue, setDiceValue ] = useState<DiceValueType>();
+    const [groguPosition, setGroguPosition] = useState<number[]>([1,0,0,0,0,0,0,0]);
 
     const handleOnClick = () => {
-        throwTheDice();
+        let dice = throwTheDice();
+        updateState(dice);
+    }
+
+    const updateState = (dice: DiceValueType) => {
+        switch (dice) {
+            case 'grogu':
+                const prevGroguPosition = groguPosition.indexOf(1);
+                const newGroguPosition = prevGroguPosition + 1;
+                let groguArray = [...groguPosition];
+                groguArray[newGroguPosition] = 1;
+                groguArray[prevGroguPosition] = 0;
+                setGroguPosition(groguArray);
+                break;
+            default:
+                break;
+        }
     }
 
     const throwTheDice = () => {
@@ -23,8 +40,7 @@ export const GamePage = () => {
     return (
         <main className='gamePage'>
             <DiceContainer diceValue={diceValue} handleOnClick={handleOnClick}/>
-            <div>
-            </div>
+            <Playground groguPosition={groguPosition}/>
         </main>
     )
 

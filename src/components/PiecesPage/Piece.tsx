@@ -1,4 +1,4 @@
-import { PieceType } from '../coms/pieces';
+import { PieceType } from '../utils/pieces';
 import './piece.scss';
 
 export const Piece = ({image, text, quantity, id}: PieceType) => {

@@ -1,4 +1,4 @@
-import { PieceType} from "../coms/pieces"
+import { PieceType} from "../utils/pieces"
 import { Piece } from "./Piece"
 import './piecesList.scss'
 

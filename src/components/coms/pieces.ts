@@ -4,6 +4,7 @@ import cookie from '../../images/cookie.svg';
 import cabinet from '../../images/cabinet.png';
 import chargeZone from '../../images/charge-zone.svg';
 import grogu from '../../images/grogu.png';
+import dice from '../../images/dice.png'
 
 type PieceIdType = 'frog' | 'cookie' | 'egg' | 'cabinet' | 'box' | 'grogu' | 'dice' | 'recipient';
 
@@ -50,5 +51,11 @@ export const pieces: PieceType[]  = [
         text: 'Grogu',
         quantity: 1,
         image: grogu
+    },
+    {
+        id: 'dice',
+        text: 'dado',
+        quantity: 1,
+        image: dice
     }
 ]

@@ -1,8 +1,8 @@
 import './App.scss';
 import { Routes, Route } from "react-router-dom";
-import { RulesPage } from './Rules/RulesPage';
-import { GamePage } from './Game/GamePage';
-import { PiecesPage } from './Pieces/PiecesPage';
+import { RulesPage } from './RulesPage/RulesPage';
+import { GamePage } from './GamePage/GamePage';
+import { PiecesPage } from './PiecesPage/PiecesPage';
 import { Menu } from './Menu/Menu';
 
 export enum LinksTo {

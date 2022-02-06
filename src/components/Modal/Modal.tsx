@@ -1,4 +1,4 @@
-import './modal.scss';
+import "./modal.scss";
 
 interface ModalProps {
     show: boolean;
@@ -13,7 +13,7 @@ export const Modal = ({show, title, image, handleOnClick}: ModalProps) => {
     }
     return (
         <div className="modal">
-            <div className='modal_content'>
+            <div className="modal_content">
                 <header className="modal_header">
                     <h4 className="modal_header_title">
                         {title}

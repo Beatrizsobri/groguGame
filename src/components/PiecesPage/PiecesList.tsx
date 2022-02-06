@@ -1,6 +1,6 @@
 import { PieceType} from "../utils/pieces"
 import { Piece } from "./Piece"
-import './piecesList.scss'
+import "./piecesList.scss"
 
 interface PiecesListProps {
     pieces: PieceType[];
@@ -8,7 +8,7 @@ interface PiecesListProps {
 
 export const PiecesList = ({pieces}:PiecesListProps) => {
     return (
-        <ul className='piecesList'>
+        <ul className="piecesList">
             {pieces.map((piece) => {
                 const {id,image,text,quantity} = piece
                 return(

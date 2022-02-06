@@ -1,4 +1,4 @@
-import './recipient.scss';
+import "./recipient.scss";
 
 interface RecipientProps {
     quantity: number; 

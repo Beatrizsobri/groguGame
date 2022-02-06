@@ -1,10 +1,10 @@
-import './rulesPage.scss';
+import "./rulesPage.scss";
 
 export const RulesPage = () => {
     return(
-        <main className='rulesPage'>
-            <div className='rulesPage_content'>
-                <h2 className='rulesPage_content_title'>Reglas del juego</h2>
+        <main className="rulesPage">
+            <div className="rulesPage_content">
+                <h2 className="rulesPage_content_title">Reglas del juego</h2>
                 <p>El juego es muy sencillo. Dispondremos de 6 casillas que representan un camino en la zona de carga de la Razor Crest que lleva hasta el armario donde se encuentra segura la mercancía. De este modo tendremos 7 casillas, 6 del camino y una que representa al armario: 🔲🔲🔲🔲🔲🔲❎
                 </p>
                 <p>Durante el viaje has hecho muy bien tu trabajo pero ahora debes vaciar el armario. Para ello deberás descargar la mercancía poco a poco. Este es el momento más delicado ya que Grogu puede aprovechar y llegar hasta el armario. Si eso ocurre se

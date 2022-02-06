@@ -1,4 +1,4 @@
-import './chargeZone.scss';
+import "./chargeZone.scss";
 import { ChargeStep } from "./ChargeStep"
 
 interface ChargeZoneProps {

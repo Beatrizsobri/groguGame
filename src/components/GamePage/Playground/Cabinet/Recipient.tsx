@@ -9,7 +9,7 @@ interface RecipientProps {
 export const Recipient = ({quantity, image, altText}: RecipientProps) => {
     return (
         <ul className="recipient">
-            {[...Array(quantity)].map(()=> <li><img src={image} alt={altText}/></li>)}
+            {[...Array(quantity)].map((i)=> <li key={i}><img src={image} alt={altText}/></li>)}
         </ul>
     )
 }

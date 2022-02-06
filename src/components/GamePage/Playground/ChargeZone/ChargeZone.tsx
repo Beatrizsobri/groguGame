@@ -8,7 +8,7 @@ interface ChargeZoneProps {
 export const ChargeZone = ({groguPosition}: ChargeZoneProps) => {
     return (
         <ul className="chargeZone">
-            {groguPosition.map((position) => <ChargeStep isGrogu={!!position}/>)}
+            {groguPosition.map((position,i) => <ChargeStep key={i} isGrogu={!!position}/>)}
         </ul>
     )
 }

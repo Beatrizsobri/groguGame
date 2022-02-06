@@ -1,0 +1,47 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_content {
+    background: white;
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  &_header {
+    &_title {
+      text-align: center;
+      color: #5e403b;
+      font-size: 20px;
+    }
+  }
+
+  &_image {
+    width: 250px;
+  }
+
+  &_footer {
+    &_button {
+      border-radius: 4px;
+      background-color: #cfced4;
+      border: #938c8f 1px solid;
+      padding: 5px;
+      margin-top: 10px;
+      width: 100px;
+      color: #5e403b;
+    }
+  }
+}

@@ -1,12 +1,12 @@
-import './gamePage.scss';
-import mando from '../../images/mando.png';
-import grogu from '../../images/groguGameOver.gif';
-import { useEffect, useState } from 'react';
-import { Modal } from '../Modal/Modal';
-import { DiceContainer } from './Dice/DiceContainer';
-import { Playground } from './Playground/Playground';
+import "./gamePage.scss";
+import mando from "../../images/mando.png";
+import grogu from "../../images/groguGameOver.gif";
+import { useEffect, useState } from "react";
+import { Modal } from "../Modal/Modal";
+import { DiceContainer } from "./Dice/DiceContainer";
+import { Playground } from "./Playground/Playground";
 
-export type DiceValueType = 'grogu' | 'egg' | 'frog' | 'cookie';
+export type DiceValueType = "grogu" | "egg" | "frog" | "cookie";
 
 export const GamePage = () => {
     const [frogQuantity, setFrogQuantity] = useState<number>(3);
@@ -32,7 +32,7 @@ export const GamePage = () => {
     }
     
     const throwTheDice = () => {
-        const diceValues:DiceValueType[] = ['frog', 'egg','grogu', 'cookie'];
+        const diceValues:DiceValueType[] = ["frog", "egg","grogu", "cookie"];
         const randomNumber = Math.floor(Math.random() * 4)
         const result = diceValues[randomNumber];
         setDiceValue(result);
@@ -41,16 +41,16 @@ export const GamePage = () => {
     
     const updateState = (dice: DiceValueType) => {
         switch (dice) {
-            case 'frog':
+            case "frog":
                 setFrogQuantity(frogQuantity - 1 < 0 ? 0 : frogQuantity -1);
                 break;
-            case 'egg':
+            case "egg":
                 setEggQuantity(eggQuantity - 1 < 0 ? 0 : eggQuantity - 1);
                 break;
-            case 'cookie':
+            case "cookie":
                 setCookieQuantity(cookieQuantity - 1 < 0 ? 0 : cookieQuantity - 1);
                 break;
-            case 'grogu':
+            case "grogu":
                 const prevGroguPosition = groguPosition.indexOf(1);
                 const newGroguPosition = prevGroguPosition + 1;
                 let groguArray = [...groguPosition];
@@ -74,7 +74,7 @@ export const GamePage = () => {
     }
 
     return (
-        <main className='gamePage'>
+        <main className="gamePage">
             <DiceContainer diceValue={diceValue} handleOnClick={handleOnClick}/>
             <Playground groguPosition={groguPosition} frogQuantity={frogQuantity} eggQuantity={eggQuantity} cookieQuantity={cookieQuantity}/>
             <Modal show={showWinModal} title="¡HAS GANADO!" image={mando} handleOnClick={handleModalOnClick}/>

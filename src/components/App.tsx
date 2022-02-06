@@ -1,14 +1,14 @@
-import './App.scss';
+import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import { RulesPage } from './RulesPage/RulesPage';
-import { GamePage } from './GamePage/GamePage';
-import { PiecesPage } from './PiecesPage/PiecesPage';
-import { Menu } from './Menu/Menu';
+import { RulesPage } from "./RulesPage/RulesPage";
+import { GamePage } from "./GamePage/GamePage";
+import { PiecesPage } from "./PiecesPage/PiecesPage";
+import { Menu } from "./Menu/Menu";
 
 export enum LinksTo {
-  pieces = 'pieces',
-  game = 'game', 
-  rules = 'rules'
+  pieces = "pieces",
+  game = "game", 
+  rules = "rules"
 }
 
 

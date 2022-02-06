@@ -1,4 +1,4 @@
-import './diceButton.scss';
+import "./diceButton.scss";
 
 interface DiceButtonProps {
     handleOnClick: () => void;

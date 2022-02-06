@@ -1,6 +1,6 @@
 import './menuItem.scss';
 import { Link } from "react-router-dom";
-import { LinksTo } from './App';
+import { LinksTo } from '../App';
 
 
 interface MenuItemProps{

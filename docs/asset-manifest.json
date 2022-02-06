@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41e6304a.css",
+    "main.js": "/static/js/main.7b712507.js",
+    "static/media/groguGameOver.gif": "/static/media/groguGameOver.63ad15b7641061105294.gif",
+    "static/media/cabinet.png": "/static/media/cabinet.cac7f3b017acc0c54df8.png",
+    "static/media/mando.png": "/static/media/mando.cb8e555be161b5d0c95d.png",
+    "static/media/grogu.png": "/static/media/grogu.2a9f7ab9f6ff7de6ab18.png",
+    "static/media/The-Mandalorian-27.jpg": "/static/media/The-Mandalorian-27.ab9b70a1ec2aa67e4833.jpg",
+    "static/media/dice.png": "/static/media/dice.af1077c6ac3ca530b32f.png",
+    "static/media/frog.svg": "/static/media/frog.36fc55280e41d82475e4b7dcbbde12c6.svg",
+    "static/media/egg.svg": "/static/media/egg.153a4ad7d92418e32ec58a310fef73c0.svg",
+    "static/media/cookie.svg": "/static/media/cookie.3ea58aedb40c5d22f69df6b6a12756b7.svg",
+    "index.html": "/index.html",
+    "static/media/charge-zone.svg": "/static/media/charge-zone.8c0dd5a213c750129b93145c373312ef.svg",
+    "main.41e6304a.css.map": "/static/css/main.41e6304a.css.map",
+    "main.7b712507.js.map": "/static/js/main.7b712507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41e6304a.css",
+    "static/js/main.7b712507.js"
+  ]
+}

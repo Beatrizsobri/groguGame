@@ -1,5 +1,5 @@
 import './chargeStep.scss';
-import grogu from '../../../images/grogu.png';
+import grogu from '../../../../images/grogu.png';
 
 interface ChargeStepProps {
     isGrogu: boolean;

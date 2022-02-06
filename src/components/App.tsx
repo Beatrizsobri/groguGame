@@ -1,14 +1,14 @@
 import './App.scss';
-import { Menu } from './Menu';
 import { Routes, Route } from "react-router-dom";
-import { Rules } from './Rules/Rules';
+import { RulesPage } from './Rules/RulesPage';
 import { Game } from './Game/Game';
-import { Pieces } from './Pieces/PiecesPage';
+import { PiecesPage } from './Pieces/PiecesPage';
+import { Menu } from './Menu/Menu';
 
 export enum LinksTo {
-  pieces = 'PIECES',
-  game = 'GAME', 
-  rules = 'RULES'
+  pieces = 'pieces',
+  game = 'game', 
+  rules = 'rules'
 }
 
 
@@ -17,8 +17,8 @@ function App() {
     <div className="App">
       <Menu/>
       <Routes>
-        <Route path={LinksTo.pieces} element={<Pieces />} />
-        <Route path={LinksTo.rules} element={<Rules />} />
+        <Route path={LinksTo.pieces} element={<PiecesPage />} />
+        <Route path={LinksTo.rules} element={<RulesPage />} />
         <Route path={LinksTo.game} element={<Game />} />
       </Routes>
     </div>

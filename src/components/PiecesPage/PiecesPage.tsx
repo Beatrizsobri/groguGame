@@ -1,5 +1,5 @@
 import './piecesPage.scss';
-import {pieces} from '../coms/pieces';
+import {pieces} from '../utils/pieces';
 import { PiecesList } from './PiecesList';
 
 export const PiecesPage = () => {

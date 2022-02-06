@@ -1,0 +1,34 @@
+.dice {
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+  background-color: #938c8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_face {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 80px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.frog {
+  background-image: url("../../../images/frog.svg");
+}
+
+.grogu {
+  background-image: url("../../../images/grogu.png");
+}
+
+.cookie {
+  background-image: url("../../../images/cookie.svg");
+}
+
+.egg {
+  background-image: url("../../../images/egg.svg");
+}
